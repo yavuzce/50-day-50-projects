@@ -1,0 +1,102 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.steps {
+  margin-top: 400px;
+  font-size: xx-large;
+  padding-right: 150px;
+  transition: width, 2s;
+}
+
+.steps:nth-child(1) {
+  border: 3px solid rgb(53, 53, 169);
+  border-radius: 40px;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.steps:nth-child(3) {
+  border: 3px solid;
+  border-radius: 40px;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.steps:nth-child(5) {
+  border: 3px solid;
+  border-radius: 40px;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.steps:nth-child(7) {
+  border: 3px solid;
+  border-radius: 40px;
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.steps > p {
+  border: 1px solid gainsboro;
+  height: 20px;
+  border-radius: 20px;
+  width: 0px;
+  background-color: blue;
+  margin-top: -5px;
+  margin-left: 0px;
+}
+
+.steps:nth-child(2) {
+  border: 5px solid gainsboro;
+  height: 13px;
+  border-radius: 20px;
+  width: 300px;
+  background-color: gainsboro;
+  margin-top: 420px;
+}
+.steps:nth-child(4) {
+  border: 5px solid gainsboro;
+  height: 13px;
+  border-radius: 20px;
+  width: 300px;
+  background-color: gainsboro;
+  margin-top: 420px;
+}
+.steps:nth-child(6) {
+  border: 5px solid gainsboro;
+  height: 13px;
+  border-radius: 20px;
+  width: 300px;
+  background-color: gainsboro;
+  margin-top: 420px;
+}
+
+.ikinci-bolum {
+  margin: 150px;
+}
+
+.ikinci-bolum > button {
+  font-size: 50px;
+  border-radius: 20px;
+  width: 300px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+.btnn:nth-child(1) {
+  margin-left: 280px;
+  color: darkgrey;
+}
+.btnn:nth-child(2) {
+  background-color: blue;
+  color: darkgrey;
+}
+
+.steps.active {
+  width: 300px;
+  background-color: blue;
+}
