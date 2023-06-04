@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkslateblue;
+}
+.container {
+  display: flex;
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  border-radius: 3px;
+  background-color: aliceblue;
+}
+input {
+  background-color: aliceblue;
+
+  display: flex;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+
+  width: 0;
+  transition: width 2s;
+}
+.fa-solid {
+  font-size: x-large;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.click {
+  width: 150px;
+}
